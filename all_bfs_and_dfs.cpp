@@ -17,6 +17,8 @@ void inorder(node* n)
     inorder(n->left);
     cout<<n->data<<" ";
     inorder(n->right);
+    // TC for recursive approach is o(n) 
+    // SC for recursive approach is o(n)
 }
 void preorder(node* n)
 {
